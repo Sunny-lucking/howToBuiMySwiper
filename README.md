@@ -207,7 +207,7 @@ input[type="radio"] {
 当然，我们要实现一个上下页切换的功能也非常简单
 
 
-![](https://files.mdnice.com/user/3934/6bca4d33-2790-4ed2-8032-b4c07689122d.png)
+![image](https://user-images.githubusercontent.com/44115602/173555424-04b9dcf3-c106-41f5-8efd-a83f65eec4db.png)
 
 我们添加三组navigator，一页页面对应一组
 
@@ -290,7 +290,7 @@ input[type="radio"] {
     }
 ```
 
-![](https://files.mdnice.com/user/3934/c167e636-6125-4a6e-b062-ff659d4bf3ea.png)
+![image](https://user-images.githubusercontent.com/44115602/173555556-a2e8927d-3930-4a68-986a-3eb75a697349.png)
 
 
 可以看到，又轻而易举就实现了点击切换上下页的功能，太腻害了。
