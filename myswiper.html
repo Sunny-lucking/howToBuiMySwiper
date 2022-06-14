@@ -53,6 +53,41 @@
       background-color: #495F8C;
       left: 200%;
     }
+
+    input[type="radio"] {
+      position: relative;
+      z-index: 100;
+      display: none;
+    }
+
+    .controls-visible {
+      position: absolute;
+      width: 100%;
+      bottom: 12px;
+      text-align: center;
+    }
+
+    .controls-visible label {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin: 0 3px;
+      border: 2px solid #fff;
+    }
+
+    .slides input[type="radio"]:nth-of-type(1):checked~.controls-visible label:nth-of-type(1) {
+      background-color: #333;
+    }
+
+    .slides input[type="radio"]:nth-of-type(2):checked~.controls-visible label:nth-of-type(2) {
+      background-color: #333;
+    }
+
+    .slides input[type="radio"]:nth-of-type(3):checked~.controls-visible label:nth-of-type(3) {
+      background-color: #333;
+    }
   </style>
 </head>
 
